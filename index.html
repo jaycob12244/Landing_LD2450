@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c11">
+  <title>LD2450 · Módulo sensor</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="landing.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="journey" aria-label="Recorrido del módulo sensor LD2450" hidden>
+      <div class="scene">
+        <div class="media">
+          <video class="sensor-video" muted playsinline preload="auto"
+            poster="assets/ld2450-inicio.webp" aria-hidden="true"></video>
+        </div>
+
+        <canvas class="energy-lines" aria-hidden="true"></canvas>
+
+        <header class="identity-group">
+          <div class="identity">
+            <p class="module-type">Módulo sensor</p>
+            <h1><span>LD2450</span><canvas class="title-lightning" aria-hidden="true"></canvas></h1>
+          </div>
+          <div class="frame-accents" aria-hidden="true">
+            <span class="frame-accent accent-sweep"><span class="frame-pulse"></span></span>
+            <span class="frame-accent accent-lower"><span class="frame-pulse"></span></span>
+            <span class="frame-accent accent-slash"><span class="frame-pulse"></span></span>
+          </div>
+        </header>
+        <p class="mini-identity" aria-hidden="true"><span>LD2450</span><canvas class="title-lightning" aria-hidden="true"></canvas></p>
+
+        <section class="parts" aria-label="Componentes del módulo">
+          <article class="part part-chip" data-part="chip" data-cue="4.5">
+            <h2 aria-hidden="true">Chip de radar</h2>
+            <p aria-hidden="true">Genera la señal de radiofrecuencia de 24 GHz que la antena del módulo emite para detectar movimiento.</p>
+          </article>
+          <article class="part part-connector" data-part="connector" data-cue="3">
+            <h2 aria-hidden="true">Conector de pines</h2>
+            <p aria-hidden="true"><strong>TX y RX</strong> comunican datos por puerto serie. <strong>5 V y GND</strong> alimentan el módulo.</p>
+          </article>
+        </section>
+        <div class="pointer-light" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="still-presentation" aria-label="Módulo sensor LD2450 en imágenes">
+      <article class="still-state">
+        <div class="still-copy identity">
+          <p class="module-type">Módulo sensor</p>
+          <h1>LD2450</h1>
+        </div>
+        <img src="assets/ld2450-inicio.webp" alt="Vista frontal del módulo ensamblado" width="1920" height="1080">
+      </article>
+      <article class="still-state">
+        <div class="still-copy">
+          <div>
+            <h2>Chip de radar</h2>
+            <p>Genera la señal de radiofrecuencia de 24 GHz que la antena del módulo emite para detectar movimiento.</p>
+          </div>
+          <div>
+            <h2>Conector de pines</h2>
+            <p><strong>TX y RX</strong> comunican datos por puerto serie. <strong>5 V y GND</strong> alimentan el módulo.</p>
+          </div>
+        </div>
+        <img src="assets/ld2450-despiece.webp" alt="Vista horizontal del módulo con el chip arriba y el conector de pines debajo" width="1920" height="1080">
+      </article>
+    </section>
+  </main>
+</body>
+</html>
